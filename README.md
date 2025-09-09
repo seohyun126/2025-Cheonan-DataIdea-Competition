@@ -39,7 +39,9 @@
   5) 데이터 불균형으로 인한 편향 완화 및 모델 성능 향상을 위해 standard, yeo-johnson scaling
      
 5. feature selection
+>
 상관계수 및 변수중요도를 확인하여 독립변수 개수 조정
+>
 -> 최종 x변수: Greenbelt(녹지 면적 비율), River (하천 면적 비율), Drainage(토양배수능 비율), Rain_Index(강수량)
 -> 최종 y변수: log (Flood)
 
@@ -68,8 +70,11 @@
 
 
 7. 결과(해결 방안) 정리
+>
    group1. 하천 + 배수면적 비율 (성환읍, 직산읍, 원성동)
+>
    group2. 하천 + 그린벨트 비율 (성정동, 봉명동)
+>
    group3. 하천 + 강우량 (다가동, 와촌동, 병천면, 수신면)
 
    
