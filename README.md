@@ -40,8 +40,8 @@
      
 5. feature selection
 상관계수 및 변수중요도를 확인하여 독립변수 개수 조정
-> 최종 x변수: Greenbelt(녹지 면적 비율), River (하천 면적 비율), Drainage(토양배수능 비율), Rain_Index(강수량)
-> 최종 y변수: log (Flood)
+-> 최종 x변수: Greenbelt(녹지 면적 비율), River (하천 면적 비율), Drainage(토양배수능 비율), Rain_Index(강수량)
+-> 최종 y변수: log (Flood)
 
 6. 모델링
 1) OLS
